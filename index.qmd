@@ -1,5 +1,5 @@
 ---
-title: "Digital Methods"
+title: "Digital Methods?"
 author: "Dr James Tripp"
 execute: 
   enabled: false
@@ -12,21 +12,102 @@ format:
         background-transition: fade
 ---
 
-## Quarto
+## CDI
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+"We use and develop digital research techniques and associated tools to advance knowledge about culture and society ('thinking with' the digital), while also taking up the digital as a substantive critical topic ('thinking through' the digital)."
 
-## Bullets
+* [Website](https://warwick.ac.uk/fac/cross_fac/cdi/)
+* [Twitter @digital_inquiry](https://twitter.com/digital_inquiry)
+* [Microsoft Teams](https://teams.microsoft.com/l/channel/19%3anrDtNpD6m9tJVJaYHpgskC1FfzUXWMelqMpyYtg48Pk1%40thread.tacv2/General?groupId=dfcf9921-c9a4-4a59-a1a7-3c6ff98820e6&tenantId=09bacfbd-47ef-4465-9265-3546f2eaf6bc)
 
-When you click the **Render** button a document will be generated that includes:
+## CDI
 
--   Content authored with markdown
--   Output from executable code
+::: columns
+::: {.column width="50%"}
+![](images/tkacz_profile_pic.jpg){fig-alt="Nathaniel Tkacz" fig-align="center" width="250"}
 
-## Code
+**Nathaniel Tkacz**
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+*Reader*
 
-```{r}
-1 + 1
-```
+[Profile page](https://warwick.ac.uk/fac/cross_fac/cim/people/nathaniel-tkacz/)
+
+[N.Tkacz\@warwick.ac.uk](mailto:N.Tkacz@warwick.ac.uk){.email}
+
+
+:::
+
+::: {.column width="50%"}
+![](images/carolina.jpg){fig-alt="Carolina Bandinelli" fig-align="center" width="200"}
+
+**Carolina Bandinelli**
+
+*Associate Professor*
+
+[Profile Page](https://warwick.ac.uk/fac/arts/scapvc/ccmps/staff/dr_carolina_bandinelli/)
+:::
+
+:::
+
+## IDG Technology For Research
+
+::: columns
+::: {.column width="50%"}
+![](images/james.png){fig-alt="James Tripp" fig-align="center" width="250"}
+
+**James Tripp**
+
+*Senior RSE*
+
+*Data Analytics, Platforms, Technologist*
+
+[@jamestripp_](https://twitter.com/jamestripp_)
+
+
+:::
+
+::: {.column width="50%"}
+![](images/g_yeboah.jpg){fig-alt="Carlos Cámara" fig-align="center" width="250"}
+
+**Godwin Yeboah**
+
+*Senior RSE*
+
+*Geospatial Specialist*
+
+[@GodwinYeboah](https://twitter.com/GodwinYeboah)
+:::
+
+:::
+
+## Teaching
+
+[github.com/WarwickCDI](https://github.com/warwickcdi)
+
+* [QGIS - How to make a map for print and web](https://github.com/WarwickCDI/How-to-create-a-map-for-print-and-web-using-QGIS)
+* [Introductory social media analysis using R](https://github.com/WarwickCDI/workshop-introductory-social-media-analysis-R)
+* [Networks - a skills workshop](https://github.com/WarwickCDI/workshop-networks-a-skillsworkshop)
+
+## Group task
+
+* In groups of three or four
+* Consider '**What is a Digital Method**'?
+* Feedback to the main group in about 10 minutes
+
+## Digital Methods - APIs
+
+* Query as method
+
+## Digital Methods - AI
+
+* Turing Living with Machines
+
+## Digital Methods - Distant reading
+
+## Digital Methods - Digital Humanities
+
+## Wrap-up
+
+* The CDI: 'digital research techniques and associated tools to advance knowledge'
+* IDG Technology for Research - Research Software Engineering team. Teaching and research.
+* The future. What digital methods are you interested in?
