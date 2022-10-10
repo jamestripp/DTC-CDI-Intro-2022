@@ -121,7 +121,11 @@ Previous sessions
 
 ## AI
 
--   Living with machines. "The project brings together historians, data scientists, geographers, computational linguists, and curators to devise new methods in data science and artificial intelligence that can be applied to historical resources, producing tools and software to analyse digitised collections at scale." [project web site](https://livingwithmachines.ac.uk/)
+- Living with machines. "The project brings together historians, data scientists, geographers, computational linguists, and curators to devise new methods in data science and artificial intelligence that can be applied to historical resources, producing tools and software to analyse digitised collections at scale." [project web site](https://livingwithmachines.ac.uk/)
+
+. . .
+
+- The Distant Viewing Lab uses and develops computational techniques to analyze visual culture on a large scale. It develops tools, methods, and datasets that can be re-used by other researchers. [Project Website](https://www.distantviewing.org/)
 
 . . .
 
