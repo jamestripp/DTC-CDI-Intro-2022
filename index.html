@@ -28,6 +28,25 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -329,14 +348,21 @@
   <p class="institute">Senior Research Software Engineer, IT Services (University of Warwick)</p>
 </section>
 
+<section>
+<section id="centre-for-digital-inquiry" class="title-slide slide level1 center" data-background-color="#552d62">
+<h1>Centre for Digital Inquiry</h1>
+
+</section>
 <section id="cdi" class="slide level2">
 <h2>CDI</h2>
 <p>“We use and develop digital research techniques and associated tools to advance knowledge about culture and society (‘thinking with’ the digital), while also taking up the digital as a substantive critical topic (‘thinking through’ the digital).”</p>
+<div class="fragment">
 <ul>
 <li><a href="https://warwick.ac.uk/fac/cross_fac/cdi/">Website</a></li>
-<li><a href="https://twitter.com/digital_inquiry">Twitter <span class="citation" data-cites="digital_inquiry">@digital_inquiry</span></a></li>
+<li><a href="https://twitter.com/digital_inquiry">Twitter @digital_inquiry</a></li>
 <li><a href="https://teams.microsoft.com/l/channel/19%3anrDtNpD6m9tJVJaYHpgskC1FfzUXWMelqMpyYtg48Pk1%40thread.tacv2/General?groupId=dfcf9921-c9a4-4a59-a1a7-3c6ff98820e6&amp;tenantId=09bacfbd-47ef-4465-9265-3546f2eaf6bc">Microsoft Teams</a></li>
 </ul>
+</div>
 </section>
 <section id="cdi-1" class="slide level2">
 <h2>CDI</h2>
@@ -375,7 +401,7 @@
 <p><strong>James Tripp</strong></p>
 <p><em>Senior RSE</em></p>
 <p><em>Data Analytics, Platforms, Technologist</em></p>
-<p><a href="https://twitter.com/jamestripp_"><span class="citation" data-cites="jamestripp_">@jamestripp_</span></a></p>
+<p><a href="https://twitter.com/jamestripp_">@jamestripp_</a></p>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -385,7 +411,7 @@
 <p><strong>Godwin Yeboah</strong></p>
 <p><em>Senior RSE</em></p>
 <p><em>Geospatial Specialist</em></p>
-<p><a href="https://twitter.com/GodwinYeboah"><span class="citation" data-cites="GodwinYeboah">@GodwinYeboah</span></a></p>
+<p><a href="https://twitter.com/GodwinYeboah">@GodwinYeboah</a></p>
 </div>
 </div>
 </section>
@@ -397,44 +423,114 @@
 <li><a href="https://github.com/WarwickCDI/workshop-introductory-social-media-analysis-R">Introductory social media analysis using R</a></li>
 <li><a href="https://github.com/WarwickCDI/workshop-networks-a-skillsworkshop">Networks - a skills workshop</a></li>
 </ul>
-</section>
-<section id="group-task" class="slide level2">
-<h2>Group task</h2>
+<div class="fragment">
+<p>Previous sessions</p>
 <ul>
-<li>In groups of three or four</li>
+<li><a href="https://github.com/jamestripp/qstep-sql">SQL workshop</a></li>
+<li><a href="https://github.com/jamestripp/qstep-socialmedia">Social Media Data Analysis in R</a></li>
+<li><a href="https://github.com/jamestripp/qstep-workshops">QSTEP Inferential Statistics Workshop</a></li>
+</ul>
+</div>
+</section></section>
+<section id="group-task" class="title-slide slide level1 center">
+<h1>Group task</h1>
+<div class="fragment">
+<ul>
+<li>Groups of four or five</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Consider ‘<strong>What is a Digital Method</strong>’?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Feedback to the main group in about 10 minutes</li>
 </ul>
+</div>
 </section>
-<section id="digital-methods---apis" class="slide level2">
-<h2>Digital Methods - APIs</h2>
+
+<section>
+<section id="digital-methods" class="title-slide slide level1 center" data-background-color="#2780e3">
+<h1>Digital Methods</h1>
+
+</section>
+<section id="apis" class="slide level2">
+<h2>APIs</h2>
 <ul>
-<li>Query as method</li>
+<li>“Digital methods are techniques for the study of societal change and cultural condition with online data. They make use of available digital objects such as the hyperlink, tag, timestamp, like, share, retweet, and seek to learn from how the objects are treated by the methods built into the dominant devices online, such as Google Web Search and Facebook’s Graph Search.” <span class="citation" data-cites="rogers2015">Rogers (<a href="#/references" role="doc-biblioref" onclick="">2015</a>)</span></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>“This paper introduces the 4CAT Capture and Analysis Toolkit (4CAT), an open-source Web-based research tool. 4CAT can capture data from a variety of online sources (including Twitter, Telegram, Reddit, 4chan, 8kun, BitChute, Douban and Parler) and analyze them through analytical processors.” <span class="citation" data-cites="peeters2022">Peeters and Hagen (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span> , <a href="https://github.com/digitalmethodsinitiative/4cat">GitHub</a></li>
+</ul>
+</div>
+</section>
+<section id="ai" class="slide level2">
+<h2>AI</h2>
+<ul>
+<li>Living with machines. “The project brings together historians, data scientists, geographers, computational linguists, and curators to devise new methods in data science and artificial intelligence that can be applied to historical resources, producing tools and software to analyse digitised collections at scale.” <a href="https://livingwithmachines.ac.uk/">project web site</a></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><p>Deep Learning</p>
+<ul>
+<li><a href="https://keras.io/">Keras</a></li>
+<li><a href="https://huggingface.co/">HuggingFace</a></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="computational-programming" class="slide level2">
+<h2>Computational Programming</h2>
+<ul>
+<li>Geospatial Analysis <a href="https://geocompr.robinlovelace.net/">GeoComputation with R</a></li>
+<li>Data Visualisation <a href="https://altair-viz.github.io/gallery/index.html">Altair webiste</a>, <a href="https://r-graph-gallery.com/ggplot2-package.html">ggplot2</a></li>
+<li>Data Science <a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a>, <a href="https://r4ds.had.co.nz/">R for Data Science</a></li>
+<li>Typical inferential statistics <a href="https://mlu-explain.github.io/linear-regression/">Linear Regression tutorial</a></li>
 </ul>
 </section>
-<section id="digital-methods---ai" class="slide level2">
-<h2>Digital Methods - AI</h2>
+<section id="digital-humanities" class="slide level2">
+<h2>Digital Humanities</h2>
 <ul>
-<li>Turing Living with Machines</li>
+<li>Distant reading. Distant reading is an approach in literary studies that applies computational methods to literary data, usually derived from large digital libraries, for the purposes of literary history and theory. <a href="https://en.wikipedia.org/wiki/Distant_reading">Wikipedia</a>, <span class="citation" data-cites="moretti2013">Moretti (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></li>
 </ul>
-</section>
-<section id="digital-methods---distant-reading" class="slide level2">
-<h2>Digital Methods - Distant reading</h2>
-</section>
-<section id="digital-methods---digital-humanities" class="slide level2">
-<h2>Digital Methods - Digital Humanities</h2>
-</section>
-<section id="wrap-up" class="slide level2">
-<h2>Wrap-up</h2>
+<div class="fragment">
 <ul>
-<li>The CDI: ‘digital research techniques and associated tools to advance knowledge’</li>
-<li>IDG Technology for Research - Research Software Engineering team. Teaching and research.</li>
+<li>Critical Digital Humanities. Can established humanities methods coexist with computational thinking? <span class="citation" data-cites="dobson2019">Dobson (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="wrapping-up" class="title-slide slide level1 center" data-background-color="#2780e3">
+<h1>Wrapping up</h1>
+<ul>
+<li>‘digital research techniques and associated tools to advance knowledge’</li>
+<li>IDG Technology for Research</li>
 <li>The future. What digital methods are you interested in?</li>
 </ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 <div class="footer footer-default">
 <p>https://jamestripp.github.io/DTC-CDI-Intro-2022 /</p>
 </div>
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-dobson2019" class="csl-entry" role="doc-biblioentry">
+Dobson, James E. 2019. <em>Critical Digital Humanities: The Search for a Methodology</em>. Champaign: University of Illinois Press. <a href="https://muse.jhu.edu/book/65168">https://muse.jhu.edu/book/65168</a>.
+</div>
+<div id="ref-moretti2013" class="csl-entry" role="doc-biblioentry">
+Moretti, Franco. 2013. <em>Distant Reading</em>. Verso Books.
+</div>
+<div id="ref-peeters2022" class="csl-entry" role="doc-biblioentry">
+Peeters, Stijn, and Sal Hagen. 2022. <span>“The 4CAT Capture and Analysis Toolkit: A Modular Tool for Transparent and Traceable Social Media Research.”</span> <em>Computational Communication Research</em> 4 (2): 571–89. <a href="https://doi.org/10.5117/CCR2022.2.007.HAGE">https://doi.org/10.5117/CCR2022.2.007.HAGE</a>.
+</div>
+<div id="ref-rogers2015" class="csl-entry" role="doc-biblioentry">
+Rogers, Richard. 2015. <span>“Digital Methods for Web Research.”</span> In, 1–22. John Wiley &amp; Sons, Ltd. <a href="https://doi.org/10.1002/9781118900772.etrds0076">https://doi.org/10.1002/9781118900772.etrds0076</a>.
+</div>
+</div>
+</section></section>
     </div>
   </div>
 
