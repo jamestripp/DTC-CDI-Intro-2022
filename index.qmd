@@ -1,0 +1,32 @@
+---
+title: "Digital Methods"
+author: "Dr James Tripp"
+execute: 
+  enabled: false
+institute: Senior Research Software Engineer, IT Services (University of Warwick)
+format: 
+    revealjs:
+        theme: [default, css/warwick.scss, css/warwick-fonts.scss]
+        footer: https://jamestripp.github.io/DTC-CDI-Intro-2022 /
+        transition: none
+        background-transition: fade
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
